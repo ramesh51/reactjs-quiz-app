@@ -3,6 +3,8 @@ name: React.js CI by ramesh
 on:
   pull_request:
     branches: "master"
+  push:
+    branches: "master"
 
 jobs:
   frontend-test:
